@@ -20,8 +20,8 @@ In industrial plants, a maintenance vehicle can perform services at production u
 │   └── /utils/                      # Instance I/O, solution evaluation, population handling
 ├── /Instances/                      # Benchmark instances (symmetric and asymmetric)
 ├── /Results/
-│   ├── /Convergence/                # HV and IGD along the run (every 1,000 evaluations)
-│   ├── /Solver_vs_metaheuristics/   # Final HV, running time and gap to the exact solver
+│   ├── /HV_IGD_vs_evaluations.csv                # HV and IGD along the run (every 1,000 evaluations)
+│   ├── /HV_solver_metaheuristics.csv   # Final HV, running time and gap to the exact solver
 │   ├── /Pareto_fronts/              # Pareto fronts: exact solver vs. each method
 └── README.md
 ```
