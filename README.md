@@ -23,9 +23,6 @@ In industrial plants, a maintenance vehicle can perform services at production u
 │   ├── /Convergence/                # HV and IGD along the run (every 1,000 evaluations)
 │   ├── /Solver_vs_metaheuristics/   # Final HV, running time and gap to the exact solver
 │   ├── /Pareto_fronts/              # Pareto fronts: exact solver vs. each method
-│   └── /Raw data/MOEAD/             # Raw MOEA/D output of every run
-│       ├── /Final/                  # 6 variants × 84 instances × 20 runs
-│       └── /Convergence/            # re-runs logging every 1,000 evaluations (100 and 200 vertices)
 └── README.md
 ```
 
